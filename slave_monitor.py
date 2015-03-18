@@ -37,7 +37,7 @@ def sendMail(textfile):
 		logger.error("File can not found in the location " + str(textfile))
 		return 1
         me = 'alerts@gmail.com'
-        you = 'nipunap@gmail.com'
+        you = 'test@gmail.com'
         msg['Subject'] = "MySQL replication error: %s" % (hostname)
         msg['From'] = me
         msg['To'] = you
